@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "alpha-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1731604504,
+        "narHash": "sha256-sNi5qarejYqM4/J7lBZI3gjVLxer5FBPq8K6qjqcMjA=",
+        "owner": "goolord",
+        "repo": "alpha-nvim",
+        "rev": "de72250e054e5e691b9736ee30db72c65d560771",
+        "type": "github"
+      },
+      "original": {
+        "owner": "goolord",
+        "repo": "alpha-nvim",
+        "type": "github"
+      }
+    },
     "flake-compat": {
       "flake": false,
       "locked": {
@@ -200,6 +216,7 @@
     },
     "root": {
       "inputs": {
+        "alpha-src": "alpha-src",
         "neovim": "neovim",
         "nixpkgs": "nixpkgs",
         "telescope-recent-files-src": "telescope-recent-files-src",

@@ -6,4 +6,5 @@ with pkgs.vimPlugins; [
     ultisnips
     neo-tree-nvim
     tree-sitter
+    alpha
 ]

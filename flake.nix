@@ -20,7 +20,7 @@
             flake = false;
         };
     };
-    outputs = { self, nixpkgs, neovim, telescope-recent-files-src, tree-sitter-src }:
+    outputs = { self, nixpkgs, neovim, telescope-recent-files-src, tree-sitter-src, alpha-src }:
     let
       overlayFlakeInputs = prev: final: {
             neovim = neovim.packages.x86_64-linux.neovim;

@@ -5,4 +5,5 @@ with pkgs.vimPlugins; [
     nvim-lspconfig
     ultisnips
     neo-tree-nvim
+    tree-sitter
 ]

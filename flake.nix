@@ -11,8 +11,12 @@
             url = "github:smartpde/telescope-recent-files";
             flake = false;
         };
+        tree-sitter-src = {
+            url = "github:nvim-treesitter/nvim-treesitter";
+            flake = false;
+        };
     };
-    outputs = { self, nixpkgs, neovim, telescope-recent-files-src }:
+    outputs = { self, nixpkgs, neovim, telescope-recent-files-src tree-sitter-src }:
     let
       overlayFlakeInputs = prev: final: {
             neovim = neovim.packages.x86_64-linux.neovim;
@@ -20,6 +24,10 @@
             vimPlugins = final.vimPlugins // {
                 telescope-recent-files = import ./packages/vimPlugins/telescope-recent-files.nix {
                     src = telescope-recent-files-src;
+                    pkgs = prev;
+                };
+                tree-sitter = import ./packages/vimPlugins/tree-sitter.nix {
+                    src = tree-sitter-src;
                     pkgs = prev;
                 };
             };

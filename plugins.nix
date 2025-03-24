@@ -4,4 +4,5 @@ with pkgs.vimPlugins; [
     telescope-recent-files
     nvim-lspconfig
     ultisnips
+    neo-tree-nvim
 ]

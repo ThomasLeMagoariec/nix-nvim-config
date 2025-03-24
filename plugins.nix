@@ -8,4 +8,6 @@ with pkgs.vimPlugins; [
     tree-sitter
     alpha
     rose-pine
+
+    nvim-lspconfig
 ]

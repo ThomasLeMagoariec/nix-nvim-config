@@ -10,4 +10,6 @@ with pkgs.vimPlugins; [
     rose-pine
 
     nvim-lspconfig
+    mason-nvim
+    mason-lspconfig-nvim
 ]

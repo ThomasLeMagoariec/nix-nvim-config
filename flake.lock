@@ -202,7 +202,8 @@
       "inputs": {
         "neovim": "neovim",
         "nixpkgs": "nixpkgs",
-        "telescope-recent-files-src": "telescope-recent-files-src"
+        "telescope-recent-files-src": "telescope-recent-files-src",
+        "tree-sitter-src": "tree-sitter-src"
       }
     },
     "telescope-recent-files-src": {
@@ -218,6 +219,22 @@
       "original": {
         "owner": "smartpde",
         "repo": "telescope-recent-files",
+        "type": "github"
+      }
+    },
+    "tree-sitter-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1742799402,
+        "narHash": "sha256-rHuBp0kFi4FfsHP1sNVPdkxrh9PcMxaF2QZdp/rOeDA=",
+        "owner": "nvim-treesitter",
+        "repo": "nvim-treesitter",
+        "rev": "e329e94a6a0a5ccf6ec8bfec1d10faf5eaae665f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nvim-treesitter",
+        "repo": "nvim-treesitter",
         "type": "github"
       }
     },

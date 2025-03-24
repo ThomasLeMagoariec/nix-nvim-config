@@ -15,6 +15,10 @@
             url = "github:nvim-treesitter/nvim-treesitter";
             flake = false;
         };
+        alpha-src = {
+            url = "github:goolord/alpha-nvim";
+            flake = false;
+        };
     };
     outputs = { self, nixpkgs, neovim, telescope-recent-files-src, tree-sitter-src }:
     let
@@ -28,6 +32,10 @@
                 };
                 tree-sitter = import ./packages/vimPlugins/tree-sitter.nix {
                     src = tree-sitter-src;
+                    pkgs = prev;
+                };
+                alpha = import ./packages/vimPlugins/alpha.nix {
+                    src = alpha-src;
                     pkgs = prev;
                 };
             };

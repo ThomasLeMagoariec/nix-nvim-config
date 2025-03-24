@@ -7,4 +7,5 @@ with pkgs.vimPlugins; [
     neo-tree-nvim
     tree-sitter
     alpha
+    rose-pine
 ]

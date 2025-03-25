@@ -6,4 +6,8 @@
   plugins = {
     lualine.enable = true;
   };
+
+  plugins.lsp = {
+    lua-ls.enable = true;
+  };
 }

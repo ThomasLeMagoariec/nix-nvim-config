@@ -98,6 +98,8 @@ cmp.setup({
                 highlight.enable = true;
             };
         };
+
+        ollama.enable = true;
     };
     
     extraPlugins = [pkgs.vimPlugins.rose-pine];

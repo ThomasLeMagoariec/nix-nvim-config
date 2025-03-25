@@ -10,6 +10,8 @@
             shiftwidth = 4;
             expandtab = true;
             smartindent = true;
+
+            colorscheme = "rose-pine";
         };
     };
 }

@@ -73,8 +73,6 @@ cmp.setup({
             };
         };
     };
-
-    extraPlugins = with pkgs.vimPlugins [
-        rose-pine
-    ]
+    
+    extraPlugins = [nixpkgs.vimPlugins.rose-pine]
 }

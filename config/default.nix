@@ -18,6 +18,10 @@
         lsp = {
             enable = true;
             autoLoad = true;
+            inlayHints = true;
+            servers = {
+                lua_ls.enable = true;
+            };
         };
     };
 }

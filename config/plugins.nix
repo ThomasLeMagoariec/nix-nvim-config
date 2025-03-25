@@ -76,7 +76,7 @@ cmp.setup({
 
         telescope = {
             enable = true;
-            keymap = {
+            keymaps = {
                 "<leader>ff" = { action = "<cmd>Telescope find_files<CR>"; };
                 "<leader>fg" = { action = "<cmd>Telescope live_grep<CR>"; };
             };

@@ -10,7 +10,7 @@
                 { name = "buffer"; }
             ];
 
-            luaConfig = ''
+            luaConfig.post = ''
                 local has_words_before = function()
   unpack = unpack or table.unpack
   local line, col = unpack(vim.api.nvim_win_get_cursor(0))

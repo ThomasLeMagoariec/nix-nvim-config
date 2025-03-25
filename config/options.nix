@@ -2,6 +2,7 @@
     config = {
         globals.mapleader = " ";
 
+        colorscheme = "rose-pine-moon";
         opts = {
             number = true;
 
@@ -11,7 +12,6 @@
             expandtab = true;
             smartindent = true;
 
-            colorscheme = "rose-pine";
         };
     };
 }

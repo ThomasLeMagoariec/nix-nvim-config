@@ -8,6 +8,9 @@
   };
 
   plugins.lsp = {
-    lua-ls.enable = true;
+    enable = true;
+    servers = {
+      lua-ls.enable = true;
+    };
   };
 }

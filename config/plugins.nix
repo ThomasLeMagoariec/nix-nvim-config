@@ -101,6 +101,7 @@ cmp.setup({
 
         ollama.enable = true;
         neocord.enable = true;
+        neo-tree.enable = true;
     };
     
     extraPlugins = [pkgs.vimPlugins.rose-pine];

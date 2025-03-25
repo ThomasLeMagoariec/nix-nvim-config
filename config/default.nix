@@ -24,6 +24,10 @@
             servers = {
                 lua_ls.enable = true;
             };
+
+            keymaps = {
+                K = "hover";
+            };
         };
     };
 

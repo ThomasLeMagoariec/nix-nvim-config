@@ -8,7 +8,6 @@
 
         cmp = {
             enable = true;
-            autoEnableSources = false;
             settings.sources = [
                 { name = "nvim_lsp"; }
                 { name = "path"; }

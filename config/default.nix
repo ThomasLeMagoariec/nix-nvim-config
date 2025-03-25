@@ -33,6 +33,6 @@
             action = "<cmd>help<CR>";
             key = "<leader>g";
         }
-        { key = "<leader>gd"; action = "<cmd>lua vim.lsp.buf.definition()<CR>"}
+        { key = "<leader>gd"; action = "<cmd>lua vim.lsp.buf.definition()<CR>";}
     ];
 }

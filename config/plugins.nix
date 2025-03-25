@@ -78,7 +78,13 @@ cmp.setup({
 
         telescope = {
             enable = true;
-            extensions.live-grep-args.enable = true;
+            extensions = {
+                live-grep-args.enable = true;
+                ui-select = {
+                    enable = true;
+                    specific_opts = { codeactions = true; };
+                };
+            };
             keymaps = {
                 "<leader>ff" = { action = "find_files"; };
                 "<leader>fg" = { action = "live_grep"; };

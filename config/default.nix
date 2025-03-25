@@ -29,19 +29,15 @@
     };
 
     keymaps = [
-        {
-            action = "<cmd>help<CR>";
-            key = "<leader>g";
-        }
-        { key = "gd"; action = "vim.lsp.buf.definition()"; }
-        { key = "K"; action = "vim.lsp.buf.hover()"; }
-        { key = "<leader>rn"; action = "vim.lsp.buf.rename()"; }
-        { key = "<leader>ca"; action = "vim.lsp.buf.code_action()"; }
-        { key = "gr"; action = "vim.lsp.buf.references()"; }
-        { key = "<leader>d"; action = "vim.diagnostic.open_float()"; }
-        { key = "[d"; action = "vim.diagnostic.goto_prev()"; }
-        { key = "]d"; action = "vim.diagnostic.goto_next()"; }
-        { key = "<C-k>"; action = "vim.lsp.buf.signature_help()"; }
-        { key = "<leader>f"; action = "vim.lsp.buf.formatting()"; }
+        { key = "gd" action = "<cmd>vim.lsp.buf.definition()<CR>" }
+        { key = "K" action = "<cmd>vim.lsp.buf.hover()<CR>" }
+        { key = "<leader>rn" action = "<cmd>vim.lsp.buf.rename()<CR>" }
+        { key = "<leader>ca" action = "<cmd>vim.lsp.buf.code_action()<CR>" }
+        { key = "gr" action = "<cmd>vim.lsp.buf.references()<CR>" }
+        { key = "<leader>d" action = "<cmd>vim.diagnostic.open_float()<CR>" }
+        { key = "[d" action = "<cmd>vim.diagnostic.goto_prev()<CR>" }
+        { key = "]d" action = "<cmd>vim.diagnostic.goto_next()<CR>" }
+        { key = "<C-k>" action = "<cmd>vim.lsp.buf.signature_help()<CR>" }
+        { key = "<leader>f" action = "<cmd>vim.lsp.buf.formatting()<CR>" }
     ];
 }

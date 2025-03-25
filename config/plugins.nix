@@ -9,6 +9,10 @@
                 { name = "path"; }
                 { name = "buffer"; }
             ];
+
+            mapping = {
+                "<CR>" = "cmp.mapping.confirm({ select = true })";
+            };
         };
 
         cmp-nvim-lsp.enable = true;

@@ -73,4 +73,8 @@ cmp.setup({
             };
         };
     };
+
+    extraPlugins = with pkgs.vimPlugins [
+        rose-pine
+    ]
 }

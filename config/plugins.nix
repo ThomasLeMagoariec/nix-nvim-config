@@ -74,11 +74,13 @@ cmp.setup({
         };
 
 
+        web-devicons.enable = true;
+
         telescope = {
             enable = true;
             keymaps = {
-                "<leader>ff" = { action = "<cmd>Telescope find_files<CR>"; };
-                "<leader>fg" = { action = "<cmd>Telescope live_grep<CR>"; };
+                "<leader>ff" = { action = "find_files"; };
+                "<leader>fg" = { action = "live_grep"; };
             };
         };
     };

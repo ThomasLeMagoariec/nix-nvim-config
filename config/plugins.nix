@@ -82,7 +82,7 @@ cmp.setup({
                 live-grep-args.enable = true;
                 ui-select = {
                     enable = true;
-                    specific_opts = { codeactions = true; };
+                    settings.specific_opts = { codeactions = true; };
                 };
             };
             keymaps = {

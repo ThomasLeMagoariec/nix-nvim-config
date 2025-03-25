@@ -1,8 +1,9 @@
 { ... }: {
     config = {
         globals.mapleader = " ";
-
+        
         colorscheme = "rose-pine-moon";
+        
         opts = {
             number = true;
 

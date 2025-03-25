@@ -1,6 +1,7 @@
 {
     "diagnostics.globals": [
         "fibonaci",
-        "fibonacci"
+        "fibonacci",
+        "insertion_sort"
     ]
 }

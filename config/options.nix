@@ -1,5 +1,5 @@
 {self, ...}: {
     globalOpts = {
-        globals.mapleader = " ";
+        mapleader = " ";
     };
 }

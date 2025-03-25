@@ -3,6 +3,8 @@
     imports = [ ./bufferline.nix ];
     colorschemes.gruvbox.enable = true;
 
+    globals.mapleader = " ";
+
     plugins = {
         lualine.enable = true;
 
@@ -24,4 +26,11 @@
             };
         };
     };
+
+    keymaps = [
+        {
+            action = "<cmd>help";
+            key = "<leader>g";
+        }
+    ];
 }

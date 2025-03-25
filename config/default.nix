@@ -33,7 +33,15 @@
             action = "<cmd>help<CR>";
             key = "<leader>g";
         }
-        { key = "<leader>gd"; action = "<cmd>lua vim.lsp.buf.definition()<CR>"; }
-        { key = "<leader>rn"; action = "<leader>rn', '<cmd>lua vim.lsp.buf.rename()<CR>"; }
+        { key = "gd"; action = "vim.lsp.buf.definition()"; }
+        { key = "K"; action = "vim.lsp.buf.hover()"; }
+        { key = "<leader>rn"; action = "vim.lsp.buf.rename()"; }
+        { key = "<leader>ca"; action = "vim.lsp.buf.code_action()"; }
+        { key = "gr"; action = "vim.lsp.buf.references()"; }
+        { key = "<leader>d"; action = "vim.diagnostic.open_float()"; }
+        { key = "[d"; action = "vim.diagnostic.goto_prev()"; }
+        { key = "]d"; action = "vim.diagnostic.goto_next()"; }
+        { key = "<C-k>"; action = "vim.lsp.buf.signature_help()"; }
+        { key = "<leader>f"; action = "vim.lsp.buf.formatting()"; }
     ];
 }

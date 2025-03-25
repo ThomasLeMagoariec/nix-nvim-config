@@ -12,4 +12,5 @@ with pkgs.vimPlugins; [
     nvim-lspconfig
     mason-nvim
     mason-lspconfig-nvim
+    knap
 ]

@@ -90,6 +90,14 @@ cmp.setup({
                 "<leader>fg" = { action = "live_grep"; };
             };
         };
+
+        treesitter = {
+            enable = true;
+            settings = {
+                auto_install = true;
+                highlight.enable = true;
+            };
+        };
     };
     
     extraPlugins = [pkgs.vimPlugins.rose-pine];

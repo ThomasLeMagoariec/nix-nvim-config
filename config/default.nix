@@ -29,7 +29,7 @@
 
     keymaps = [
         {
-            action = "<cmd>help";
+            action = "<cmd>help<CR>";
             key = "<leader>g";
         }
     ];

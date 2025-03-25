@@ -72,6 +72,15 @@ cmp.setup({
                 lua_ls.enable = true;
             };
         };
+
+
+        telescope = {
+            enable = true;
+            keymap = {
+                "<leader>ff" = { action = "<cmd>Telescope find_files<CR>"; };
+                "<leader>fg" = { action = "<cmd>Telescope live_grep<CR>"; };
+            };
+        };
     };
     
     extraPlugins = [pkgs.vimPlugins.rose-pine];

@@ -4,9 +4,9 @@
     globalOpts = {
         number = true;
         expandtab = true;
+        shiftwidth = 4;
         tabstop = 4;
         softtabstop = 4;
-        shiftwidth = 4;
     };
 
 }

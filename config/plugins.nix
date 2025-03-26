@@ -70,6 +70,7 @@ cmp.setup({
             enable = true;
             servers = {
                 lua_ls.enable = true;
+                csharp_ls.enable = true;
             };
         };
 

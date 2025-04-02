@@ -71,6 +71,7 @@ cmp.setup({
             servers = {
                 lua_ls.enable = true;
                 omnisharp.enable = true;
+                ccls.enable = true;
             };
         };
 

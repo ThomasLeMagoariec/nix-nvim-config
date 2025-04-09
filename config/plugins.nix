@@ -72,6 +72,7 @@ cmp.setup({
                 lua_ls.enable = true;
                 omnisharp.enable = true;
                 ccls.enable = true;
+                pyright.enable = true;
             };
         };
 

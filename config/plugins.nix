@@ -73,6 +73,7 @@ cmp.setup({
                 omnisharp.enable = true;
                 ccls.enable = true;
                 pyright.enable = true;
+                html.enable = true;
             };
         };
 
